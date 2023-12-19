@@ -1,5 +1,3 @@
-# personalized_medicine_challenges
-
 Code for our paper: Emerging Challenges in Personalized Medicine: Assessing Demographic Effects on Biomedical Question Answering Systems:
 http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-long/cdrom/pdf/2023.ijcnlp-long.36.pdf
 
