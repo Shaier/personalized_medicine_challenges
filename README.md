@@ -14,8 +14,8 @@ Feel free to add more vignettes or try this on your own data. Though note that i
 You will also find the folder "transformations", to which the transformations will be added. Note that BioLinkBERT and QAGNN require the questions to be in different formats (and also have different tokenizers), so there is a transformation folder for each. 
 
 # To create the transformations
-python create_biolinkbert_transformations.py 
-python create_qagnn_transformations.py 
+- python create_biolinkbert_transformations.py 
+- python create_qagnn_transformations.py 
 
 # Dependencies
 ## QAGNN and BioLinkBERT have different dependencies so we need to create 2 environments based on their githubs
