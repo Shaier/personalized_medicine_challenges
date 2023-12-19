@@ -5,9 +5,10 @@ http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-long/cdrom/pdf/2023
 
 # Data
 In the "data" folder you can find 2 files: 
-"original_questions.jsonl": the 100 vignettes we use to generate the transformations. 
-"processed_questions.jsonl": the 100 vignettes we use to generate the transformations, but with slight gender modifications (e.g., "he" --> "[he]"), and also tokenized based on BioLinkBERT's tokenizer. 
-Feel free to add more vignettes or try this on your own data. Note that you might want to go over the generate transformations to ensure that everything works correctly (as language has a lot of nuances we may have missed a few cases).
+
+- "original_questions.jsonl": the 100 vignettes we use to generate the transformations. 
+- "processed_questions.jsonl": the 100 vignettes we use to generate the transformations, but with slight gender modifications (e.g., "he" --> "[he]"), and also tokenized based on BioLinkBERT's tokenizer. 
+- Feel free to add more vignettes or try this on your own data. Though note that if you do so you might want to go over the generate transformations to ensure that everything works correctly (as language has a lot of nuances we may have missed a few cases).
 
 You will also find the folder "transformations", to which the transformations will be added. Note that BioLinkBERT and QAGNN require the questions to be in different formats (and also have different tokenizers), so there is a transformation folder for each. 
 
