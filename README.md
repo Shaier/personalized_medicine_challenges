@@ -58,4 +58,4 @@ You will also find the folder "transformations", to which the transformations wi
 - Unzip it and put the "medqa_usmle" and "ddb" folders inside the qagnn/data/
 - python qagnn_usmle_testing.py
 ### To analyze results
-- analyze_answers_biolink.ipynb
+- analyze_answers_qagnn.ipynb
