@@ -43,6 +43,13 @@ You will also find the folder "transformations", to which the transformations wi
 - pip install torch-sparse==0.6.9 -f https://pytorch-geometric.com/whl/torch-1.8.0+cu101.html
 - pip install torch-geometric==1.7.0 -f https://pytorch-geometric.com/whl/torch-1.8.0+cu101.html
 - pip install protobuf==3.20.*
+- git clone https://github.com/michiyasunaga/qagnn.git
+- cd qagnn
+- Download the pretrained model and place it in "qagnn/saved_models"
+- chmod +x download_preprocessed_data.sh
+- ./download_preprocessed_data.sh
+- Add MedQA-USMLE: https://nlp.stanford.edu/projects/myasu/QAGNN/data_preprocessed_biomed.zip
+- Unzip it and put the "medqa_usmle" and "ddb" folders inside the qagnn/data/
 
 ### To get BioLinkBERT results
 - conda activate linkbert
@@ -52,13 +59,6 @@ You will also find the folder "transformations", to which the transformations wi
 
 ### To get QAGNN results
 - conda activate qagnn 
-- git clone https://github.com/michiyasunaga/qagnn.git
-- cd qagnn
-- Download the pretrained model and place it in "qagnn/saved_models"
-- chmod +x download_preprocessed_data.sh
-- ./download_preprocessed_data.sh
-- Add MedQA-USMLE: https://nlp.stanford.edu/projects/myasu/QAGNN/data_preprocessed_biomed.zip
-- Unzip it and put the "medqa_usmle" and "ddb" folders inside the qagnn/data/
 - python qagnn_usmle_testing.py
 ### To analyze results
 - analyze_answers_qagnn.ipynb
