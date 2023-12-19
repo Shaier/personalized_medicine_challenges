@@ -1,6 +1,13 @@
 Code for our paper: Emerging Challenges in Personalized Medicine: Assessing Demographic Effects on Biomedical Question Answering Systems:
 http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-long/cdrom/pdf/2023.ijcnlp-long.36.pdf
 
+<div align="center">
+<!--    <br/><br/> -->
+  <img src="https://github.com/Shaier/personalized_medicine_challenges/blob/main/intro_figure.png" width="680" /> 
+<!--   <br/><br/> -->
+</div>
+
+
 # Data
 In the "data" folder you can find 2 files: 
 
