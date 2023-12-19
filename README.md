@@ -51,7 +51,6 @@ You will also find the folder "transformations", to which the transformations wi
 - analyze_answers_biolink.ipynb
 
 ### To get QAGNN results
-- their script requires train, test, and dev files, each with at least one prompt. Since we only care about the dev set I placed 2 files in "qagnn/data/dataset_files" called "train.jsonl" and "test.jsonl" which have only 1 made up prompt. You can ignore their results. The process for testing is to replace each "dev.jsonl" file with each permuted dataset, then, following their script we create a graph using entity linking for each, followed by a transformer model (see their paper/script for more details).
 - conda activate qagnn 
 - git clone https://github.com/michiyasunaga/qagnn.git
 - cd qagnn
