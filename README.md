@@ -18,7 +18,7 @@ You will also find the folder "transformations", to which the transformations wi
 - python create_qagnn_transformations.py 
 
 # Dependencies
-QAGNN and BioLinkBERT have different dependencies so we need to create 2 environments based on their githubs
+##### QAGNN and BioLinkBERT have different dependencies so we need to create 2 environments based on their githubs
 
 # QAGNN: https://github.com/michiyasunaga/qagnn
 conda create -n qagnn python=3.7
